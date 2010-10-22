@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd" >
+<install type="plugin" group="content" version="1.5.20" method="upgrade">
+	<name>Content - Plugin Flex Banner</name>
+	<author>Carlos Delfino</author>
+	<creationDate>Abril 2010</creationDate>
+	<copyright>(C) keep and Carlos Delfino</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>joomla@full.srv.br</authorEmail>
+	<authorUrl>http://www.full.srv.br/wiki/view/Fsrv/Joomla/PluginFlexBaner</authorUrl>
+	<version>0.4</version>
+	<description><![CDATA[
+				<p>O plugin flexbanner foi baseado no trabalho do Keep em seu plugin MosBanner, mas adaptado para uso com o FlexBanner componente.</p> 
+				<p>There are some standard banner sizes like bilboard which are displayed within content items, for what the currently available advertising extensions are not usable. With this plugin you can sell advertising place within your articles. It will select a banner from the core Banners component by the specified parameters. The banners can be selected randomly, by single or multple IDs or by clients or by categories. The made impressions are recorded.</p>
+				<p>Instructions:</p>
+				<p>
+				<ul>
+				<li>{flexbanner} - a banner is displayed in random order</li>
+				<li>{flexbanner:id=x} - a banner with the specified ID will be displyed after replacing 'x' with the ID of the required banner</li>
+				<li>{flexbanner:id=x,y,z} - a banner to be displayed is randomly selected from the specified IDs. Any number of IDs can be specified.</li>
+				<li>{flexbanner:clientid=x} - a banner assigned to a client is displayed in random order</li>
+				<li>{flexbanner:clientid=x,y,z} - a banner of several clients is selected and displayed. Any number of IDs can be specified. </li>
+				<hr/>				
+				<li>{flexbanner:location=x} - a banner assigned to a location is displayed in random order</li>
+				<li>{flexbanner:location=x,y,z} - a banner of several locations is selected and displayed. Any number of IDs can be specified. </li>
+				<hr/>
+				<li>{flexbanner:sizeid=x} - a ser implementado, permite a impressão de banners de tamanhos determinados.
+				</ul>
+				</p>
+				]]>
+	</description>
+	<files>
+		<filename plugin="flexbanner">plg_flexbanner.php</filename>
+	</files>
+	<params>
+		<param name="loop" type="radio" default="0"
+			label="Loop" description="Ativar o Loop em caso de arquivos SWF">
+			<option value="0">False</option>
+			<option value="1">True</option>
+		</param>
+	</params>
+</install>
