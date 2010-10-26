@@ -1,0 +1,9 @@
+A plugin with more features and power that was based on the work of Keep that created the plugin MosBanner, but was adapted for use with the component FlexBanner (http://forum.inchhosting.co.uk/flexbanner-f10.html?sid = 4383833e34fd31f280e170cecb4ad814)
+
+The plugin now displays a random collection of banners reported in the article in question, and has much yet to be developed, but is well underway and running at: www.guiabhnorte.com.br and www.guiabhleste.com.br.  
+
+In the future I intend to implement the following features: 
+* Reduce the information necessary to display banners randomly. 
+* Prioritize banners paying customers. 
+* View Banners Domain as used for entry to the site (sites multidomains) 
+* Etc.
